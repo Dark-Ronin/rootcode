@@ -7,8 +7,8 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #14201c; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #0a3223; /* Color for headings, subheadings and title throughout the website */
+  --default-color: #141b20; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #0a1f32; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #2c5b92; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -20,7 +20,7 @@
   --nav-hover-color: #325aa5; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #14201c; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #141d20; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #3170a3; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -32,7 +32,7 @@
 }
 
 .dark-background {
-  --background-color: #000704;
+  --background-color: #01060c;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #28323a;

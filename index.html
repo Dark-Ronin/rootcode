@@ -22,6 +22,14 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("SEU_USER_ID"); // substitua pelo seu User ID do EmailJS
+    })();
+  </script>
+
+
     
 </head>
 <body>
@@ -46,8 +54,7 @@
     <div class="branding d-flex align-items-cente">
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
+        <a href="index.html" class="logo d-flex align-items-center"> 
           <img src="assets/img/rootcode logotipo var 2 bg.png" alt="">
         </a>
 
@@ -75,7 +82,7 @@
     <section id="hero" class="hero section dark-background">
 
       <div class="hero-background">
-        <img src="assets/img/project1.jpg" alt="" data-aos-duration="1000">
+        <img src="assets/img/front/pexels-mikhail-nilov-9301294.jpg" alt="" data-aos-duration="1000">
         <div class="overlay"></div>
       </div>
 
@@ -85,7 +92,7 @@
             <div class="hero-content">
               <span class="hero-badge">Conectando Soluções</span>
               <h1>Transforma seu negocio numa tecnologia moderna</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+              <p>A Rootcode conecta soluções digitais e tecnológicas, oferecendo serviços de web design, montagem de redes, segurança eletrônica e design gráfico. Transformamos ideias em resultados, de forma prática e confiável.</p>
               <div class="hero-actions">
                 <a href="#services" class="btn-primary">Nossos Serviços</a>
                 <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn-secondary glightbox">
@@ -136,9 +143,17 @@
           <div class="col-lg-6">
             <div class="content">
                 <h2>Sempre Conectando Soluções</h2>
-                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore debitis rerum reiciendis expedita blanditiis vero nostrum voluptate ex dolores et excepturi autem natus eaque odit accusantium consequatur culpa, alias obcaecati..</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam nostrum unde possimus placeat laboriosam velit maiores dolores aspernatur architecto nam sunt omnis cupiditate officiis, facilis nesciunt, dolore, expedita veritatis?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam nostrum unde possimus placeat laboriosam velit maiores dolores aspernatur architecto nam sunt omnis cupiditate officiis, facilis nesciunt, dolore, expedita veritatis?</p>
+                <p class="lead">Na rootcode, acreditamos que tecnologia e criatividade caminham juntas. Atuamos em Web Design, montagem de redes, instalação de Wi-Fi, câmeras e sistemas de segurança eletrônica, além de design de flyers e materiais visuais. Nosso objetivo é entregar soluções completas e personalizadas, garantindo que cada projeto conecte você ao que realmente importa.</li>
+                <p><span style="font-weight: bold; font-size: 30px;">Missão</span></p>
+                <p>Oferecer soluções tecnológicas e criativas que conectem pessoas e negócios, entregando qualidade, segurança e inovação em cada projeto</p>
+                <p><span style="font-weight: bold; font-size: 30px;">Visão</span></p>
+                <p>Ser referência local em tecnologia, design e conectividade, transformando ideias em soluções inteligentes e acessíveis para todos.</p>
+                <p><span style="font-weight: bold; font-size: 30px;">Valores</span></p>
+                <li><Span style="font-weight: bold;">Inovação:</Span>Buscamos sempre novas formas de resolver problemas e melhorar experiências.</p>
+                <li><Span style="font-weight: bold;">Compromisso:</Span>Entregamos resultados com responsabilidade e dedicação.</p>
+                <li><Span style="font-weight: bold;">Confiabilidade:</Span>Garantimos segurança e transparência em cada serviço prestado.</p>
+                <li><Span style="font-weight: bold;">Criatividade:</Span>Transformams ideias em soluções visuais e funcionais que se destacam.</p>
+
 
               <div class="cta-wrapper">
                 <a href="#portfolio" class="btn btn-primary">Veja nossos trabalhos</a>
@@ -149,7 +164,7 @@
 
           <div class="col-lg-6">
             <div class="image-wrapper">
-              <img src="assets/img/project3.jpg" alt="About Us" class="img-fluid main-image">
+              <img src="assets/img/front/pexels-mikhail-nilov-9301316.jpg" alt="About Us" class="img-fluid main-image">
             </div>
           </div>
         </div>
@@ -158,113 +173,114 @@
 
     </section><!-- /About Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
+<!-- Services Section -->
+<section id="services" class="services section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Serviços</h2>
-        <p>Veja nossos Serviços</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>Serviços</h2>
+    <p>Veja nossos Serviços</p>
+  </div><!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
 
-        <div class="row gy-4">
+    <div class="row gy-4">
 
-          <div class="col-lg-6 col-md-6">
-            <div class="service-card featured">
-              <div class="service-icon">
-                <i class="bi bi-code-slash"></i>
-              </div>
-              <div class="service-content">
-                <h3><a href="#contact">Desenvolvimento Web</a></h3>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum congue leo eget malesuada.</p>
-                <div class="service-meta">
-                  <span class="badge popular">Mais Acessado</span>
-                  <span class="price">Apartir de 8000.00MT</span>
-                </div>
-                <a href="#contact" class="btn-cta">
-                  <span>Adira</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="service-bg"></div>
-            </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="service-card featured">
+          <div class="service-icon">
+            <i class="bi bi-code-slash"></i>
           </div>
-
-          <div class="col-lg-6 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-palette"></i>
-              </div>
-              <div class="service-content">
-                <h3><a href="#contact">UI/UX Design</a></h3>
-                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
-                <a href="#contact" class="btn-cta">
-                  <span>Adire</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="service-bg"></div>
+          <div class="service-content">
+            <h3><a href="#contact">Desenvolvimento Web</a></h3>
+            <p>Criação de sites modernos e responsivos, otimizados para todos os dispositivos e prontos para destacar seu negócio na internet.</p>
+            <div class="service-meta">
+              <span class="badge popular">Mais Acessado</span>
+              <span class="price">Apartir de 8000.00MT</span>
             </div>
+            <a href="#contact" class="btn-cta">
+              <span>Adira</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card compact">
-              <div class="service-icon">
-                <i class="bi bi-graph-up-arrow"></i>
-              </div>
-              <div class="service-content">
-                <h3><a href="#contact">Desenvolvimento de Softwares</a></h3>
-                <p>Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-                <a href="#contact" class="btn-cta">
-                  <span>Fale conosco</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="service-bg"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card compact">
-              <div class="service-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <div class="service-content">
-                <h3><a href="#contact">Montagem de Cameras de Segurança</a></h3>
-                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar vel. Sed porttitor lectus nibh vestibulum ac diam sit.</p>
-                <a href="#contact" class="btn-cta">
-                  <span>Entre em contato</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="service-bg"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card compact">
-              <div class="service-icon">
-                <i class="bi bi-cloud-upload"></i>
-              </div>
-              <div class="service-content">
-                <h3><a href="#contact">Segurança Eletronica</a></h3>
-                <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
-                <a href="#contact" class="btn-cta">
-                  <span>Entre em contato</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="service-bg"></div>
-            </div>
-          </div>
-
+          <div class="service-bg"></div>
         </div>
-
       </div>
 
-    </section><!-- /Services Section -->
+      <div class="col-lg-6 col-md-6">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-palette"></i>
+          </div>
+          <div class="service-content">
+            <h3><a href="#contact">UI/UX Design</a></h3>
+            <p>Design de interfaces intuitivas e experiências de usuário envolventes, que deixam seu projeto bonito e fácil de usar.</p>
+            <a href="#contact" class="btn-cta">
+              <span>Adira</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card compact">
+          <div class="service-icon">
+            <i class="bi bi-graph-up-arrow"></i>
+          </div>
+          <div class="service-content">
+            <h3><a href="#contact">Desenvolvimento de Softwares</a></h3>
+            <p>Soluções personalizadas em software para automatizar processos, organizar dados e facilitar o dia a dia do seu negócio.</p>
+            <a href="#contact" class="btn-cta">
+              <span>Fale conosco</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card compact">
+          <div class="service-icon">
+            <i class="bi bi-shield-check"></i>
+          </div>
+          <div class="service-content">
+            <h3><a href="#contact">Montagem de Câmeras de Segurança</a></h3>
+            <p>Instalação completa de câmeras de segurança, garantindo proteção e monitoramento eficiente para sua casa ou empresa.</p>
+            <a href="#contact" class="btn-cta">
+              <span>Entre em contato</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card compact">
+          <div class="service-icon">
+            <i class="bi bi-cloud-upload"></i>
+          </div>
+          <div class="service-content">
+            <h3><a href="#contact">Segurança Eletrônica</a></h3>
+            <p>Sistemas de alarme, controle de acesso e monitoramento inteligente para manter seu patrimônio seguro 24/7.</p>
+            <a href="#contact" class="btn-cta">
+              <span>Entre em contato</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
 
 <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -272,7 +288,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Veja abaixo nossos trabalhos concluidos</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -282,33 +298,33 @@
           <div class="portfolio-filters-wrapper" data-aos="fade-up" data-aos-delay="100">
             <ul class="portfolio-filters isotope-filters">
               <li data-filter="*" class="filter-active">Todos Projetos</li>
-              <li data-filter=".filter-branding">Instalaçao de Redes</li>
+              <li data-filter=".filter-redes">Instalaçao de Redes</li>
               <li data-filter=".filter-web">Web Design</li>
-              <li data-filter=".filter-print">Design Grafico</li>
+              <li data-filter=".filter-design">Design Grafico</li>
               <li data-filter=".filter-motion">Motion Graphics</li>
             </ul>
           </div>
 
           <div class="row gy-4 portfolio-grid isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
                 <div class="image-container">
-                  <img src="assets/img/portfolio/p1.jpg" class="img-fluid" alt="Brand Identity" loading="lazy">
+                  <img src="assets/img/portfolio/eps.PNG" class="img-fluid" alt="Brand Identity" loading="lazy">
                   <div class="overlay">
                     <div class="overlay-content">
-                      <a href="assets/img/portfolio/p1.jpg" class="glightbox zoom-link" title="Brand Identity Project">
+                      <a href="assets/img/portfolio/eps.PNG" class="glightbox zoom-link" title="Brand Identity Project">
                         <i class="bi bi-zoom-in"></i>
                       </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
+                      <a href="https://dark-ronin.github.io/EPSconsultoria/" class="details-link" title="View Project Details">
                         <i class="bi bi-arrow-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="content">
-                  <h3>Brand Identity</h3>
-                  <p>Corporate branding and visual identity system</p>
+                  <h3>WebSite: EPS consultoria</h3>
+                  <p>Uma pagina web multifuncional, com funções como contacto, cadastro, e registro, alem de servir como vitrine online</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -316,48 +332,45 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
                 <div class="image-container">
-                  <img src="assets/img/portfolio/p2.jpg" class="img-fluid" alt="E-commerce Platform" loading="lazy">
+                  <img src="assets/img/portfolio/shelsy.PNG" class="img-fluid" alt="E-commerce Platform" loading="lazy">
                   <div class="overlay">
                     <div class="overlay-content">
-                      <a href="assets/img/portfolio/p2.jpg" class="glightbox zoom-link" title="E-commerce Platform">
+                      <a href="assets/img/portfolio/shelsy.PNG" class="glightbox zoom-link" title="E-commerce Platform">
                         <i class="bi bi-zoom-in"></i>
                       </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
+                      <a href="https://aicamstore.netlify.app" class="details-link" title="View Project Details">
                         <i class="bi bi-arrow-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="content">
-                  <h3>E-commerce Platform</h3>
-                  <p>Modern online shopping experience</p>
+                  <h3>Aicam Store</h3>
+                  <p>Um catalogo de vendas online, com compra via Whatsapp</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-card">
                 <div class="image-container">
-                  <img src="assets/img/portfolio/p3.jpg" class="img-fluid" alt="Magazine Design" loading="lazy">
+                  <img src="assets/img/portfolio/design1.jpeg" class="img-fluid" alt="Magazine Design" loading="lazy">
                   <div class="overlay">
                     <div class="overlay-content">
-                      <a href="assets/img/portfolio/p3.jpg" class="glightbox zoom-link" title="Magazine Design">
+                      <a href="assets/img/portfolio/design1.jpeg" class="glightbox zoom-link" title="Magazine Design">
                         <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="content">
-                  <h3>Magazine Design</h3>
-                  <p>Editorial layout and typography</p>
+                  <h3>Flyes publicitario</h3>
+                  <p>Criativo e funcional</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
               <div class="portfolio-card">
                 <div class="image-container">
                   <img src="assets/img/portfolio/p4.jpg" class="img-fluid" alt="Motion Graphics" loading="lazy">
@@ -377,48 +390,61 @@
                   <p>Animated visual storytelling</p>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-redes">
               <div class="portfolio-card">
                 <div class="image-container">
-                  <img src="assets/img/portfolio/p5.jpg" class="img-fluid" alt="Logo Collection" loading="lazy">
+                  <img src="assets/img/portfolio/montagem redes.jpeg" class="img-fluid" alt="Logo Collection" loading="lazy">
                   <div class="overlay">
                     <div class="overlay-content">
-                      <a href="assets/img/portfolio/p5.jpg" class="glightbox zoom-link" title="Logo Collection">
+                      <a href="assets/img/portfolio/montagem redes.jpeg" class="glightbox zoom-link" title="Logo Collection">
                         <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="content">
-                  <h3>Logo Collection</h3>
-                  <p>Diverse brand mark explorations</p>
+                  <h3>Segurança eletrônica</h3>
+                  <p>Montagem de cameras de segurança</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-card">
                 <div class="image-container">
-                  <img src="assets/img/portfolio/p6.jpg" class="img-fluid" alt="Mobile App Design" loading="lazy">
+                  <img src="assets/img/portfolio/design2.jpeg" class="img-fluid" alt="Mobile App Design" loading="lazy">
                   <div class="overlay">
                     <div class="overlay-content">
-                      <a href="assets/img/portfolio/p6.jpg" class="glightbox zoom-link" title="Mobile App Design">
+                      <a href="assets/img/portfolio/design2.jpeg" class="glightbox zoom-link" title="Mobile App Design">
                         <i class="bi bi-zoom-in"></i>
-                      </a>
-                      <a href="portfolio-details.html" class="details-link" title="View Project Details">
-                        <i class="bi bi-arrow-right"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="content">
-                  <h3>Mobile App Design</h3>
-                  <p>User-centered interface design</p>
+                  <h3>Fyer</h3>
+                  <p>Criativo e funcional</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/design3.jpeg" class="img-fluid" alt="Mobile App Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/design3.jpeg" class="glightbox zoom-link" title="Mobile App Design">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Fyer</h3>
+                  <p>Criativo e funcional</p>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -437,7 +463,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Conheça a nossa team</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -447,7 +473,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-image">
-                <img src="assets/img/team_1.jpg" class="img-fluid" alt="" loading="lazy">
+                <img src="assets/img/sale.jpg" class="img-fluid" alt="" loading="lazy">
                 <div class="social-overlay">
                   <div class="social-icons">
                     <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -459,7 +485,7 @@
               <div class="member-info">
                 <h4>Sale Hussene</h4>
                 <span>Director Chef</span>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <p>Responsável por liderar a equipe e garantir que cada projeto seja entregue com excelência, unindo estratégia, criatividade e eficiência.</p>
               </div>
             </div><!-- End Team Member -->
           </div>
@@ -467,7 +493,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-image">
-                <img src="assets/img/team_2.jpg" class="img-fluid" alt="" loading="lazy">
+                <img src="assets/img/wilson.PNG" class="img-fluid" alt="" loading="lazy">
                 <div class="social-overlay">
                   <div class="social-icons">
                     <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -479,7 +505,7 @@
               <div class="member-info">
                 <h4>Wilson</h4>
                 <span>Diretor de Design</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.</p>
+                  <p>Especialista em design visual e experiência do usuário, transforma ideias em layouts atraentes e funcionais, sempre alinhado com as necessidades do cliente.</p>
               </div>
             </div><!-- End Team Member -->
           </div>
@@ -487,19 +513,19 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-image">
-                <img src="assets/img/team_3.jpg" class="img-fluid" alt="" loading="lazy">
+                <img src="assets/img/norton.jpg" class="img-fluid" alt="" loading="lazy">
                 <div class="social-overlay">
                   <div class="social-icons">
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                    <a href="#"><i class="bi bi-twitter-x"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="https://nortondev.netlify.app"><i class="bi bi-briefcase"></i></a>
+                    <a href="https://www.facebook.com/norton.rungo"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/___norton____"><i class="bi bi-instagram"></i></a>
                   </div>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Norton Rungo</h4>
-                <span>Director de T.I</span>
-                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <span>Dev</span>
+                <p>Desenvolvedor apaixonado por tecnologia, cria soluções digitais, sites e ferramentas práticas, garantindo que tudo funcione de forma ágil e intuitiva.</p>
               </div>
             </div><!-- End Team Member -->
           </div>
@@ -514,7 +540,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contactos</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Fale conosco</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -580,42 +606,44 @@
           </div>
 
 
-            <div class="form-container">
-              <h3>Send Us a Message</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mauris hendrerit faucibus imperdiet nec eget felis.</p>
+        <div class="form-container">
+        <h3>Send Us a Message</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mauris hendrerit faucibus imperdiet nec eget felis.</p>
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required="">
-                  <label for="nameInput">Full Name</label>
-                </div>
+        <form id="contactForm" class="php-email-form">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required>
+            <label for="nameInput">Full Name</label>
+          </div>
 
-                <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required="">
-                  <label for="emailInput">Email Address</label>
-                </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required>
+            <label for="emailInput">Email Address</label>
+          </div>
 
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject" required="">
-                  <label for="subjectInput">Subject</label>
-                </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject" required>
+            <label for="subjectInput">Subject</label>
+          </div>
 
-                <div class="form-floating mb-3">
-                  <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message" style="height: 150px" required=""></textarea>
-                  <label for="messageInput">Your Message</label>
-                </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message" style="height: 150px" required></textarea>
+            <label for="messageInput">Your Message</label>
+          </div>
 
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+          <div class="my-3">
+            <div class="loading" style="display:none;">Enviando...</div>
+            <div class="error-message" style="display:none; color:red;"></div>
+            <div class="sent-message" style="display:none; color:green;">Sua mensagem foi enviada. Obrigado!</div>
+          </div>
 
-                <div class="d-grid">
-                  <button type="submit" class="btn-submit">Send Message <i class="bi bi-send-fill ms-2"></i></button>
-                </div>
-              </form>
-            </div>
+          <div class="d-grid">
+            <button type="submit" class="btn-submit">
+              Send Message <i class="bi bi-send-fill ms-2"></i>
+            </button>
+          </div>
+        </form>
+      </div>
           </div>
         </div>
       </div>
@@ -628,9 +656,9 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <h4>Endereço</h4>
+            <p>Maputo</p>
+            <p>Matola</p>
             <p></p>
           </div>
 
@@ -639,9 +667,9 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
+            <h4>Contacto</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
+              <strong>Phone:</strong> <span>+258 868 741 942</span><br>
               <strong>Email:</strong> <span>info@example.com</span><br>
             </p>
           </div>
@@ -650,16 +678,15 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4>Horarios</h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong>seg-Sex:</strong> <span>11AM - 23PM</span><br>
             </p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
+          <h4>Nos siga</h4>
           <div class="social-links d-flex">
             <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -695,7 +722,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -704,4 +730,42 @@
 
   <!-- Main JS File -->
   <script src="main.js"></script>
+
+<!-- EmailJS Script -->
+<script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+<script>
+  emailjs.init("h772tKs89D1HE7v5-"); // Substitua pelo seu User ID do EmailJS
+
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const loading = form.querySelector('.loading');
+    const errorMsg = form.querySelector('.error-message');
+    const successMsg = form.querySelector('.sent-message');
+
+    loading.style.display = 'block';
+    errorMsg.style.display = 'none';
+    successMsg.style.display = 'none';
+
+    const templateParams = {
+      name: document.getElementById('nameInput').value,
+      email: document.getElementById('emailInput').value,
+      subject: document.getElementById('subjectInput').value,
+      message: document.getElementById('messageInput').value
+    };
+
+    emailjs.send('service_fapwjsx', 'template_fxbobjb', templateParams)
+      .then(function(response) {
+        loading.style.display = 'none';
+        successMsg.style.display = 'block';
+        form.reset();
+      }, function(error) {
+        loading.style.display = 'none';
+        errorMsg.style.display = 'block';
+        errorMsg.textContent = 'Erro ao enviar a mensagem. Tente novamente!';
+      });
+  });
+</script>
+
 </html>
